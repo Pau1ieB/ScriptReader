@@ -1,4 +1,4 @@
-const numberOfPages=22;
+const numberOfPages=20;
 let currentPage=0;
 let listOfRatings=[[0,7]];
 //const listOfRatings={};
