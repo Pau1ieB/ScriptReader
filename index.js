@@ -86,7 +86,8 @@ window.addEventListener('resize', ()=>resizeWindow());
 
 document.querySelector('.current-page').textContent=currentPage+1;
 
-document.body.addEventListener('touchmove', function(e){ e.preventDefault(); }, { passive: false });
+
+//document.body.addEventListener('touchmove', function(e){ e.preventDefault(); }, { passive: false });
 
 //resize window for first time
 resizeWindow();
